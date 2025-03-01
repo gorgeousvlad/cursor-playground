@@ -1,0 +1,27 @@
+.landing-container {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.landing-title {
+    color: #333;
+}
+
+.landing-text {
+    font-size: 18px;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+} 
