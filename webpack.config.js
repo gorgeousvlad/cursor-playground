@@ -47,7 +47,12 @@ module.exports = {
                 test: /\.(ts|tsx|js|jsx)$/,
                 use: [
                     'babel-loader',
-                    'ts-loader'
+                    {
+                        loader: 'ts-loader',
+                        options: {
+                            configFile: 'tsconfig.webpack.json'
+                        }
+                    }
                 ],
                 exclude: /node_modules/,
             },
