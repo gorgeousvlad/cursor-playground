@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Production builds
+/dist
+/build
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+
+# IDE - VSCode
+.vscode/*
+
+# macOS
+.DS_Store
+
